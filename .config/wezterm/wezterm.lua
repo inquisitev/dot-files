@@ -37,7 +37,7 @@ wezterm.on("gui-startup", function(cmd)
 
 	local tab2, b2, w = window:spawn_tab({
 
-		workspce = "coding0",
+		workspce = "coding",
 		cwd = project_dir,
 		args = args,
 	})
